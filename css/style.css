@@ -1,0 +1,70 @@
+/* --------------------------
+             css part
+------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #2D25A0;
+    padding-top: 42px;
+    height: 632px;
+}
+
+
+/* ------------------------------------------------------------------
+                         navigation start
+-------------------------------------------------------------------*/
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 26px;
+}
+
+.login a,
+.top-banner a {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    margin-right: 0;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------------------
+                         navigation end
+-------------------------------------------------------------------*/
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    color: white;
+}
+
+.top-banner a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 50%;
+}
+
+#text {
+    position: relative;
+    left: 230px;
+}
+
+.top-banner img {
+    width: 556px;
+}
